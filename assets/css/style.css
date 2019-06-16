@@ -893,7 +893,7 @@ END Video Area
     font-weight: 400;
     letter-spacing: 0;
     color: #333;
-    border: 1px solid #591efb;
+    border: 1px solid #396a07;
     padding: 5px 21px;
     border-radius: 3px;
     display: inline-block;
@@ -901,7 +901,7 @@ END Video Area
 }
 .single-price a:hover{
     color: #fff;
-    background-color: #591efb;
+    background-color: #396a07;
 }
 
 /*===========================
@@ -1108,7 +1108,7 @@ END Contact Area
 }
 .s-info i{
         font-size: 21px;
-    color: #591efb;
+    color: #396a07;
     float: left;
     margin-right: 14px;
     margin-top: 6px;
