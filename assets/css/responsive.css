@@ -112,7 +112,7 @@
         border-bottom: 1px solid #efebeb;
         padding-bottom: 30px;
     }
-    
+
     /*-----------------------
         Blog Page
     -----------------------*/
@@ -139,7 +139,7 @@
         font-size: 31px;
     }
 
-    
+
 }
 
 
@@ -182,12 +182,13 @@
     }
     .slider-inner h2 {
         font-size: 33px;
+
     }
     .slider-inner h5 {
         font-size: 23px;
-    line-height: 27px;
-    margin-bottom: 42px;
-    margin-top: 5px;
+        line-height: 27px;
+        margin-bottom: 42px;
+        margin-top: 5px;
     }
     .service-single{
         margin-bottom: 30px;
