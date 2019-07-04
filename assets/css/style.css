@@ -276,6 +276,7 @@ END Header Area
     align-items: center;
     height: 600px;
     background-image: url('../../assets/img/bg/pine-trees-bg.jpg');
+    filter: brightness(95%);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 80px;
@@ -290,22 +291,25 @@ END Header Area
 .slider-inner {}
 
 .slider-inner h2 {
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 600;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color: #fff;
+    color: #0ef118fc;
     letter-spacing: 0;
     line-height: 49px;
-    margin-bottom: 105px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .slider-inner h5 {
     font-size: 30px;
     font-weight: 500;
-    color: #fff;
+    color: #0ef118fc;
     letter-spacing: 0;
     line-height: 39px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 5px;
 }
 
