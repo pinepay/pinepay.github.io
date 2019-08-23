@@ -157,6 +157,14 @@ textarea {
     display: inline-block;
 }
 
+.logo h5 {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0;
+}
+
 .logo a img {
     max-height: 100%;
 }
@@ -302,6 +310,7 @@ END Header Area
     padding: 15px;
     border-radius: 5px;
     opacity: 0.80;
+    text-align: center;
 }
 
 .slider-inner h5 {
@@ -1816,3 +1825,98 @@ END Blog Standard
 /*===========================
 END Blog Details
 ===========================*/
+
+/*===========================
+Register Form
+===========================*/
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm button,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #232323;
+  letter-spacing: 0;
+  line-height: 37px;
+}
+#fs-frm label,
+#fs-frm legend {
+  font-size: .825em;
+  margin-bottom: .5em;
+}
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm button,
+#fs-frm textarea {
+  border: 1px solid #417505;
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1em;
+  margin-bottom: 1.5em;  
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm button,
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm button:focus,
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm button,
+#fs-frm select {
+  text-transform: none;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
