@@ -656,6 +656,14 @@ END Achivement Area
   transform: translateX(-50%);
 }
 
+.screen-area img.screen-img-test {
+  margin-top: 25px;
+  bottom: 25px;
+  position: relative;
+  width: 375px;
+  height: 700px;
+}
+
 .screen-slider {
   margin-top: 116px;
 }
