@@ -446,6 +446,7 @@ END Service Area
   line-height: 37px;
   position: relative;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -540,8 +541,19 @@ END Service Area
   text-overflow: ellipsis;
 }
 
+list-square ol {
+  list-style-type: roman;
+  padding-left: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+  list-style-position: outside;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .list-square li {
-  list-style-type: square;
   margin: 10px 0;
   color: black;
   font-size: 16px;
@@ -1239,7 +1251,7 @@ END Contact Area
 
 /*footer area*/
 .footer-area {
-  height: 80px;
+  height: 125px;
   text-align: center;
   background-color: #417505;
   display: flex;
@@ -1247,6 +1259,20 @@ END Contact Area
 }
 .footer-area p {
   color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.footer-area a {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer-area a:hover {
+  font-size: 16px;
+  color: blue;
+  margin-bottom: 25px;
 }
 /*===========================
 3. Blog Details
