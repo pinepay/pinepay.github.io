@@ -77,7 +77,7 @@
                       <li class="active"><a href="#home">Our App</a></li>
                       <li><a href="#feature">Why we exist?</a></li>
                       <li><a href="#screenshot">How it works?</a></li>
-                      <li><a href="#contact">Launching soon</a></li>
+                      <li><a href="#signup">Launching soon</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -296,7 +296,7 @@
     </section>
     <!-- screen slider area end -->
     <!-- contact area start -->
-    <section class="contact-area bg-gray ptb--100" id="contact">
+    <section class="contact-area bg-gray ptb--100" id="signup">
       <div class="container">
         <div class="section-title">
           <h2>Register to hear about our launch</h2>
@@ -310,6 +310,11 @@
             method="post"
           >
             <fieldset id="fs-frm-inputs">
+              <label>Select your account type</label>
+              <select name="account type" required>
+                <option value="Merchant">Merchant</option>
+                <option value="Individual">Individual</option>
+              </select>
               <label for="full-name">Full Name</label>
               <input
                 type="text"
@@ -326,19 +331,53 @@
                 placeholder="Email"
                 required=""
               />
-              <label>Select your account type</label>
-              <select name="account type" required>
-                <option value="Individual">Individual</option>
-                <option value="Merchant">Merchant</option>
-              </select>
-              <label for="message">Message</label>
-              <textarea
-                rows="5"
-                name="message"
-                id="message"
-                placeholder="Any thoughts?"
+              <label for="business">Business Name</label>
+              <input
+                type="text"
+                name="business"
+                id="business"
+                placeholder="Business Name (if applicable)"
                 required=""
-              ></textarea>
+              />
+              <label>Do you have access to an iPhone or iPad?</label>
+              <select name="phone type" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              <label>What bank do you use?</label>
+              <select name="bank type" required>
+                <option value="AIB Corporate">AIB Corporate</option>
+                <option value="Bank of Ireland">Bank of Ireland</option>
+                <option value="Bank of Scotland">Bank of Scotland</option>
+                <option value="Barclays">Barclays</option>
+                <option value="Danske Business">Danske Business</option>
+                <option value="Danske Personal">Danske Personal</option>
+                <option value="First Direct">First Direct</option>
+                <option value="Halifax">Halifax</option>
+                <option value="HSBC">HSBC</option>
+                <option value="Lloyds">Lloyds</option>
+                <option value="Monzo">Monzo</option>
+                <option value="M&S">M&S</option>
+                <option value="Nationwide">Nationwide</option>
+                <option value="Natwest">Natwest</option>
+                <option value="RBS">RBS</option>
+                <option value="Revolut">Revolut</option>
+                <option value="Santander">Santander</option>
+                <option value="Starling">Starling</option>
+                <option value="Tesco">Tesco</option>
+                <option value="TSB">TSB</option>
+                <option value="Ulster Bank">Ulster Bank</option>
+                <option value="Other">Other</option>
+              </select>
+              <label for="contact-number">Contact Number</label>
+              <input
+                type="text"
+                name="contact-number"
+                id="contact-number"
+                placeholder="Contact Number"
+                required=""
+              />
+              </textarea>
               <input
                 type="hidden"
                 name="_subject"

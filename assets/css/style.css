@@ -279,8 +279,8 @@ END Header Area
 .slider-area {
   display: flex;
   align-items: center;
-  height: 600px;
-  background-image: url("../../assets/img/bg/pine-trees-bg.jpg");
+  height: 400px;
+  background-image: url("../../assets/img/bg/pine-trees-only.png");
   filter: brightness(95%);
   background-repeat: no-repeat;
   background-position: center;
