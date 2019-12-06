@@ -509,8 +509,13 @@ END Service Area
 .about-content p {
   font-size: 16px;
   color: #666666;
-  margin-bottom: 25px;
 }
+
+.about-content a {
+  font-size: 16px;
+  color: blue;
+}
+
 .list-content {
   font-size: 16px;
   color: black;
@@ -1221,7 +1226,6 @@ END Contact Area
   display: block;
 }
 .c-social {
-  margin-top: 25px;
 }
 .c-social ul {
 }
@@ -1251,7 +1255,7 @@ END Contact Area
 
 /*footer area*/
 .footer-area {
-  height: 125px;
+  height: 175px;
   text-align: center;
   background-color: #417505;
   display: flex;
