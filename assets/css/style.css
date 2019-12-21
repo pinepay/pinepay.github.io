@@ -724,27 +724,6 @@ END Achivement Area
   margin-top: 116px;
 }
 
-.screen-slider .owl-dots {
-  text-align: center;
-  margin-top: 130px;
-}
-
-.screen-slider .owl-dots .owl-dot {
-  height: 15px;
-  width: 15px;
-  border: 1px solid #417505;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0px 2px;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.screen-slider .owl-dots .active {
-  background-color: #417505;
-}
-
 /*===========================
 END Screen Area
 ===========================*/
@@ -809,27 +788,6 @@ END Screen Area
 }
 .tst-social li a:hover {
   color: #5a0efb;
-}
-
-.testimonial-slider .owl-dots {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.testimonial-slider .owl-dots .owl-dot {
-  height: 15px;
-  width: 15px;
-  border: 1px solid #417505;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0px 2px;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.testimonial-slider .owl-dots .active {
-  background-color: #417505;
 }
 
 /*===========================

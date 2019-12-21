@@ -11,7 +11,7 @@
 // -----------------------------
 
 
-(function($) {
+(function ($) {
     "use strict";
 
 
@@ -20,8 +20,8 @@
     preloader
     --------------------- */
 
-    $(window).on('load', function() {
-        $('#preloader').delay(1000).fadeOut('slow', function() { $(this).remove(); });
+    $(window).on('load', function () {
+        $('#preloader').delay(1000).fadeOut('slow', function () { $(this).remove(); });
     });
 
     //=========================
@@ -30,7 +30,7 @@
 
     //ACTIVE CURRENT MENU WHILE SCROLLING
 
-    $(window).on("scroll", function() {
+    $(window).on("scroll", function () {
 
         activeMenuItem($(".nav-menu"));
 
@@ -48,7 +48,7 @@
             home = nav.find(" > ul > li:first");
 
 
-        sections.each(function() {
+        sections.each(function () {
             var top = $(this).offset().top - nav_height - 40,
                 bottom = top + $(this).outerHeight();
 
@@ -72,7 +72,7 @@
         var links = $links;
         var topGap = $topGap;
 
-        links.on("click", function() {
+        links.on("click", function () {
             if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
@@ -87,7 +87,7 @@
         });
     }
 
-    $(window).on("load", function() {
+    $(window).on("load", function () {
         smoothScrolling($(".main-menu > nav > ul > li > a[href^='#']"), 70);
     });
 
@@ -97,115 +97,6 @@
     $('.nav-menu > ul').slicknav({
         'prependTo': '.mobile_menu'
     });
-
-    /*---------------------
-    screen slider
-    --------------------- */
-    function screen_slider() {
-        var owl = $(".screen-slider");
-        owl.owlCarousel({
-            loop: true,
-            margin: 20,
-            navigation: false,
-            items: 5,
-            smartSpeed: 1000,
-            dots: true,
-            autoplay: true,
-            center: true,
-            autoplayTimeout: 2000,
-            dotsEach: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 3
-                },
-                760: {
-                    items: 3
-                },
-                1080: {
-                    items: 5
-                },
-                1920: {
-                    items: 5
-                }
-            }
-        });
-    }
-    screen_slider();
-
-    /*---------------------
-    client carousel
-    --------------------- */
-    function client_carousel() {
-        var owl = $(".client-carousel");
-        owl.owlCarousel({
-            loop: true,
-            margin: 60,
-            navigation: false,
-            items: 4,
-            smartSpeed: 1000,
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            dotsEach: true,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                480: {
-                    items: 3
-                },
-                760: {
-                    items: 4
-                },
-                1080: {
-                    items: 4
-                },
-                1920: {
-                    items: 4
-                }
-            }
-        });
-    }
-    client_carousel();
-
-    /*---------------------
-    testimonial slider
-    --------------------- */
-    function testimonial_slider() {
-        var owl = $(".testimonial-slider");
-        owl.owlCarousel({
-            loop: true,
-            margin: 20,
-            navigation: false,
-            items: 1,
-            smartSpeed: 1000,
-            dots: true,
-            autoplay: false,
-            autoplayTimeout: 2000,
-            dotsEach: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 1
-                },
-                760: {
-                    items: 1
-                },
-                1080: {
-                    items: 2
-                },
-                1920: {
-                    items: 2
-                }
-            }
-        });
-    }
-    testimonial_slider();
 
     /*------------------------------
     MagnificPopup Activation
@@ -218,7 +109,7 @@
     /*------------------------------
     YTP activation
     -------------------------------- */
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         var myPlayer = $("#bgndVideo").YTPlayer();
     });
 
@@ -243,7 +134,7 @@
     /*------------------------------
          counter
     ------------------------------ */
-    
+
     $('.counter').counterUp({
         delay: 20,
         time: 2000
@@ -254,7 +145,7 @@
     ------------------------------- */
     function bgParallax() {
         if ($(".parallax").length) {
-            $(".parallax").each(function() {
+            $(".parallax").each(function () {
                 var height = $(this).position().top;
                 var resize = height - $(window).scrollTop();
                 var parallaxSpeed = $(this).data("speed");
@@ -279,7 +170,7 @@
     }
     bgParallax();
 
-    $(window).on("scroll", function() {
+    $(window).on("scroll", function () {
 
         bgParallax();
     });
