@@ -74,8 +74,6 @@
     font-size: 22px;
   }
   .screen-area,
-  .testimonial-area,
-  .pricing-area,
   .clinet-area,
   .contact-area {
     padding: 90px 0px;
@@ -91,12 +89,6 @@
   .prc-head span {
     font-size: 21px;
     margin-bottom: 7px;
-  }
-  .team-area {
-    padding: 90px 0px 70px;
-  }
-  .single-team {
-    margin-bottom: 20px;
   }
   .download-btns a {
     margin-bottom: 20px;
@@ -209,8 +201,6 @@
     padding: 80px 0px 10px;
   }
   .screen-area,
-  .testimonial-area,
-  .video-area,
   .call-to-action,
   .clinet-area,
   .contact-area {
@@ -218,17 +208,6 @@
   }
   .screen-slider {
     margin-top: 0;
-  }
-  .video-area h2 {
-    font-size: 25px;
-  }
-  .pricing-area,
-  .team-area {
-    padding: 80px 0px 60px;
-  }
-  .single-price,
-  .single-team {
-    margin-bottom: 30px;
   }
   .download-btns a {
     margin: 5px 0px;
@@ -358,8 +337,6 @@
     padding: 70px 0px 0px;
   }
   .screen-area,
-  .testimonial-area,
-  .video-area,
   .call-to-action,
   .clinet-area,
   .contact-area {
@@ -367,17 +344,6 @@
   }
   .screen-slider {
     margin-top: 0;
-  }
-  .video-area h2 {
-    font-size: 25px;
-  }
-  .pricing-area,
-  .team-area {
-    padding: 70px 0px 40px;
-  }
-  .single-price,
-  .single-team {
-    margin-bottom: 30px;
   }
   .download-btns a {
     margin: 5px 0px;
