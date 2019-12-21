@@ -106,13 +106,6 @@
         type: 'iframe'
     });
 
-    /*------------------------------
-    YTP activation
-    -------------------------------- */
-    $(window).on('load', function () {
-        var myPlayer = $("#bgndVideo").YTPlayer();
-    });
-
     /*-----------------------------
     Warm Canvas activation
     ------------------------------- */
