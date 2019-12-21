@@ -272,6 +272,45 @@ textarea {
 END Header Area
 ===========================*/
 
+.single-tst {
+  text-align: center;
+  margin-top: 109px;
+  padding: 0px 8%;
+  padding-bottom: 24px;
+}
+
+.single-tst h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #232323;
+  letter-spacing: 0;
+}
+
+.single-tst span {
+  font-size: 15px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.single-tst p {
+  color: #666666;
+  margin: 8px 0px 20px;
+}
+
+.tst-social li {
+  display: inline-block;
+}
+
+.tst-social li a {
+  font-size: 40px;
+  color: #417505;
+  margin: 0px 5px;
+}
+.tst-social li a:hover {
+  color: blue;
+}
+
 /*==========================
 2.2 Slider Area
 ===========================*/
