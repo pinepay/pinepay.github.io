@@ -461,6 +461,29 @@ END Slider Area
   font-size: 15px;
 }
 
+.promotion-single {
+  padding: 40px 10px;
+  background: #417505;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 33px;
+}
+
+.promotion-single p {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.promotion-single h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
 /*===========================
 END Service Area
 ===========================*/
