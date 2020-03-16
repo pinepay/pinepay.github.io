@@ -132,6 +132,10 @@
 /* Max Size: 320px. */
 
 @media screen and (max-width: 991px) {
+  .slider-area {
+    height: auto;
+    padding: 200px 0px 149px;
+  }
 }
 /* Mobile Layout: 320px. */
 
@@ -159,7 +163,7 @@
   }
   .slider-area {
     height: auto;
-    padding: 114px 0px 149px;
+    padding: 200px 0px 149px;
   }
   .slider-inner {
     text-align: left;
@@ -295,10 +299,12 @@
   }
   .slider-area {
     height: auto;
-    padding: 114px 0px 149px;
+    padding: 200px 0px 149px;
+    width: 110%;
   }
   .slider-inner {
     text-align: left;
+    width: auto;
   }
   .slider-inner h2 {
     font-size: 23px;
