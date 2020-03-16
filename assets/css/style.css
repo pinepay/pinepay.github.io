@@ -147,6 +147,16 @@ textarea {
   align-items: center;
 }
 
+.join-button a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0;
+  float: right;
+  border: 2px solid #fff;
+  padding: 15px 10px;
+}
+
 .logo {
 }
 
@@ -167,7 +177,7 @@ textarea {
 }
 
 .main-menu {
-  text-align: right;
+  text-align: center;
 }
 
 .main-menu nav ul {
@@ -375,7 +385,7 @@ END Header Area
   display: inline-block;
   position: relative;
   height: 60px;
-  width: 250px;
+  width: 350px;
   background-color: #417505;
   border: 2px solid #417505;
   text-align: center;
