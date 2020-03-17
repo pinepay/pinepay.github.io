@@ -293,14 +293,27 @@
   }
   .menu-area {
     display: block;
+    padding: 5px 5px;
+  }
+  .join-button a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0;
+    float: right;
+    border: 2px solid #cab23a;
+    background-color: #cab23a;
+    padding: 5px 5px;
+    margin-bottom: 10px;
   }
   .logo {
     padding: 21px 0px 17px;
   }
   .slider-area {
-    height: auto;
     padding: 200px 0px 149px;
-    width: 110%;
+  }
+  .slider-area img {
+    max-width: 100%;
   }
   .slider-inner {
     text-align: left;

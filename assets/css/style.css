@@ -145,15 +145,17 @@ textarea {
 .menu-area {
   display: flex;
   align-items: center;
+  padding: 5px 5px;
 }
 
 .join-button a {
   font-size: 20px;
-  font-weight: 400;
-  color: #fff;
+  font-weight: 600;
+  color: white;
   letter-spacing: 0;
   float: right;
-  border: 2px solid #fff;
+  border: 2px solid #cab23a;
+  background-color: #cab23a;
   padding: 15px 10px;
 }
 
@@ -342,6 +344,7 @@ END Header Area
   filter: brightness(95%);
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 100%;
 }
 
 .slider-img {
@@ -357,7 +360,7 @@ END Header Area
   padding-left: 20px;
   padding: 15px;
   border-radius: 5px;
-  opacity: 0.9;
+  opacity: 0.8;
   text-align: left;
   width: 450px;
 }
@@ -366,7 +369,7 @@ END Header Area
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 49px;
+  line-height: 40px;
 }
 
 .slider-inner p {
@@ -583,6 +586,13 @@ END Service Area
   font-weight: 500;
   color: #666666;
 }
+.section-title a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #cab23a;
+  text-decoration: underline;
+}
+
 .section-title.text-white p {
   color: #fff;
 }
@@ -1051,6 +1061,36 @@ END Contact Area
 3. Blog Details
 ===========================*/
 
+.blog-summary blockquote {
+  font-size: 30px;
+  background: #f9f9f9;
+  border-left: 20px solid #ccc;
+  margin: 0.5em 10px;
+  padding: 0 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.blog-summary blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+.blog-summary footer {
+  margin: 0;
+  text-align: right;
+  font-size: 1em;
+  font-style: italic;
+}
+
 .blog-list {
 }
 
@@ -1102,12 +1142,33 @@ END Contact Area
   margin-right: 4px;
 }
 
-.blog-summery {
+.blog-summary {
   margin: 7px 0px 25px;
 }
 
-.blog-summery p {
+.blog-summary p a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.blog-summary h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #232323;
+  letter-spacing: 0;
+  line-height: 37px;
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.blog-summary p {
   color: #696969;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .list-item a.read-more {
