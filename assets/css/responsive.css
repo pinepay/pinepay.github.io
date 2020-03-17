@@ -301,8 +301,8 @@
     color: white;
     letter-spacing: 0;
     float: right;
-    border: 2px solid #cab23a;
-    background-color: #cab23a;
+    border: 2px solid #417505;
+    background-color: #417505;
     padding: 5px 5px;
     margin-bottom: 10px;
   }
@@ -311,6 +311,8 @@
   }
   .slider-area {
     padding: 200px 0px 149px;
+    width: auto;
+    overflow-x: hidden;
   }
   .slider-area img {
     max-width: 100%;
@@ -319,6 +321,11 @@
     text-align: left;
     width: auto;
   }
+  .slider-inner a {
+    width: auto;
+    padding: 0px 10px;
+  }
+
   .slider-inner h2 {
     font-size: 23px;
   }

@@ -139,7 +139,8 @@ textarea {
   top: 0;
   width: 100%;
   z-index: 998;
-  background-color: #417505; /*#417505*/
+  background-color: white;
+  opacity: 0.85;
 }
 
 .menu-area {
@@ -151,12 +152,14 @@ textarea {
 .join-button a {
   font-size: 20px;
   font-weight: 600;
-  color: white;
+  color: white; /*#cab23a */
   letter-spacing: 0;
   float: right;
-  border: 2px solid #cab23a;
-  background-color: #cab23a;
+  border: 2px solid #417505;
+  background-color: #417505;
   padding: 15px 10px;
+  opacity: 1;
+  font-family: "Lato", sans-serif;
 }
 
 .logo {
@@ -191,9 +194,9 @@ textarea {
 
 .main-menu nav ul li a {
   display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #417505;
   letter-spacing: 0;
   padding: 27px 36px;
   position: relative;
@@ -207,7 +210,7 @@ textarea {
   bottom: 22px;
   height: 2px;
   width: 0%;
-  background-color: #fff;
+  background-color: #417505;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -360,7 +363,7 @@ END Header Area
   padding-left: 20px;
   padding: 15px;
   border-radius: 5px;
-  opacity: 0.8;
+  opacity: 0.85;
   text-align: left;
   width: 450px;
 }
@@ -370,6 +373,7 @@ END Header Area
   font-weight: 400;
   letter-spacing: 0;
   line-height: 40px;
+  font-family: "Lato", sans-serif;
 }
 
 .slider-inner p {
@@ -378,6 +382,7 @@ END Header Area
   letter-spacing: 0;
   line-height: 35px;
   margin-top: 10px;
+  font-family: "Lato", sans-serif;
 }
 
 .slider-inner h5 {
@@ -589,7 +594,6 @@ END Service Area
 .section-title a {
   font-size: 20px;
   font-weight: 500;
-  color: #cab23a;
   text-decoration: underline;
 }
 
@@ -730,6 +734,7 @@ END About Area
 
 .ft-single p {
   color: #666666;
+  font-size: 15px;
 }
 
 .ft-screen-img {
