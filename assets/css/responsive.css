@@ -10,32 +10,18 @@
     Home One
     -----------------------*/
   .main-menu nav ul li a {
-    padding: 29px 13px;
+    display: inline-block;
+    padding: 10px 13px;
   }
   .screen-area img.screen-img {
     bottom: 171px;
     width: 434px;
     height: 453px;
   }
-
-  /*-----------------------
-        Blog Page
-    -----------------------*/
-  .blog-post-area {
-    padding-top: 90px;
-  }
-  .bp-with-sidebar {
-    padding-bottom: 80px;
-  }
-  .pagination-area {
-    padding-bottom: 70px;
-  }
-
-  /*-----------------------
-        Blog Details
-    -----------------------*/
-  .blog-details {
-    padding: 100px 0px;
+  .slider-inner h2 {
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
   }
 }
 
@@ -47,6 +33,10 @@
     -----------------------*/
   .menu-area {
     display: block;
+    padding: 5px 5px;
+  }
+  .join-button a {
+    margin-bottom: 10px;
   }
   .logo {
     padding: 21px 0px 17px;
@@ -54,6 +44,11 @@
   .slider-area {
     height: 646px;
     padding-top: 0;
+  }
+  .slider-inner h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
   }
   .service-single h2 {
     font-size: 22px;
@@ -157,6 +152,7 @@
   }
   .menu-area {
     display: block;
+    padding: 5px 5px;
   }
   .logo {
     padding: 21px 0px 17px;
@@ -306,6 +302,21 @@
     padding: 5px 5px;
     margin-bottom: 10px;
   }
+  .join-button-mobile {
+    display: block;
+    padding: 20px 10px;
+  }
+  .join-button-mobile a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0;
+    float: left;
+    border: 2px solid #417505;
+    background-color: #417505;
+    padding: 10px 10px;
+  }
   .logo {
     padding: 21px 0px 17px;
   }
@@ -313,6 +324,8 @@
     padding: 200px 0px 149px;
     width: auto;
     overflow-x: hidden;
+    background-image: none;
+    background-color: #ffffff;
   }
   .slider-area img {
     max-width: 100%;
@@ -320,6 +333,9 @@
   .slider-inner {
     text-align: left;
     width: auto;
+    margin-top: 10px;
+    color: #417505;
+    background-color: transparent;
   }
   .slider-inner a {
     width: auto;
@@ -327,8 +343,17 @@
   }
 
   .slider-inner h2 {
-    font-size: 23px;
+    font-size: 30px;
+    color: #417505;
+    font-weight: 500;
   }
+
+  .slider-inner p {
+    font-size: 20px;
+    color: #417505;
+    font-weight: 500;
+  }
+
   .slider-inner h5 {
     font-size: 20px;
     line-height: 27px;
@@ -385,6 +410,10 @@
   .contact_info {
     padding-left: 0;
     margin-top: 40px;
+  }
+  .blog-summary h5 {
+    font-size: 18px;
+    line-height: 30px;
   }
 
   /*-----------------------

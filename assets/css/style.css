@@ -161,6 +161,9 @@ textarea {
   opacity: 1;
   font-family: "Lato", sans-serif;
 }
+.join-button-mobile a {
+  display: none;
+}
 
 .logo {
 }
@@ -348,6 +351,7 @@ END Header Area
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
+  max-height: 100%;
 }
 
 .slider-img {
@@ -363,36 +367,38 @@ END Header Area
   padding-left: 20px;
   padding: 15px;
   border-radius: 5px;
-  opacity: 0.85;
-  text-align: left;
-  width: 450px;
+  opacity: 0.8;
+  text-align: center;
+  width: auto;
+  margin-top: 600px;
 }
 
 .slider-inner h2 {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-size: 65px;
+  font-weight: 350;
+  letter-spacing: normal;
   line-height: 40px;
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
 
 .slider-inner p {
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 0;
-  line-height: 35px;
-  margin-top: 10px;
+  line-height: 30px;
+  margin-top: 30px;
   font-family: "Lato", sans-serif;
 }
 
 .slider-inner h5 {
   font-size: 30px;
   font-weight: 500;
-  color: #0ef118fc;
+  color: #417505;
   letter-spacing: 0;
   line-height: 39px;
-  margin-bottom: 40px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .slider-inner a {
@@ -590,11 +596,13 @@ END Service Area
   font-size: 20px;
   font-weight: 500;
   color: #666666;
+  letter-spacing: normal;
 }
 .section-title a {
   font-size: 20px;
   font-weight: 500;
-  text-decoration: underline;
+  text-decoration: #417505;
+  letter-spacing: normal;
 }
 
 .section-title.text-white p {
