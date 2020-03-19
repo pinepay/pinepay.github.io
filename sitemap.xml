@@ -2,24 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pinepay.net/</loc>
-    <lastmod>2019-12-21</lastmod>
+    <lastmod>2020-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
-        <image:loc>https://pinepay.net/assets/img/icon/website_logo.png</image:loc>
+        <image:loc>https://pinepay.net/assets/img/icon/website_logo_green.png</image:loc>
         <image:title>Pine Pay - Mobile Payments and Rewards App</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://pinepay.net/assets/img/service/exchange-alt.png</image:loc>
-        <image:title>Convenient to pay</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://pinepay.net/assets/img/service/ios-wallet.png</image:loc>
-        <image:title>Snap or transfer to Pay</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://pinepay.net/assets/img/service/pound-sign.png</image:loc>
-        <image:title>Rewards and Cashback</image:title>
       </image:image>
       <image:image>
         <image:loc>https://pinepay.net/assets/img/icon/feature/Mobile%20First.png</image:loc>
@@ -60,21 +48,21 @@
   </url>
   <url>
     <loc>https://pinepay.net/privacy.html</loc>
-    <lastmod>2019-12-17</lastmod>
+    <lastmod>2020-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://pinepay.net/assets/img/icon/website_logo.png</image:loc>
+        <image:loc>https://pinepay.net/assets/img/icon/website_logo_green.png</image:loc>
         <image:title>Pine Pay - Mobile Payments and Rewards App</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://pinepay.net/terms-of-use.html</loc>
-    <lastmod>2019-12-17</lastmod>
+     <lastmod>2020-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://pinepay.net/assets/img/icon/website_logo.png</image:loc>
+        <image:loc>https://pinepay.net/assets/img/icon/website_logo_green.png</image:loc>
         <image:title>Pine Pay - Mobile Payments and Rewards App</image:title>
       </image:image>
   </url>
