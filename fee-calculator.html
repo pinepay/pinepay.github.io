@@ -16,7 +16,7 @@
     </script>
     <!--- Basic Page Needs  -->
     <meta charset="utf-8" />
-    <title>Our Terms of Use - Pine Pay</title>
+    <title>Fee Calculator - Pine Pay</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Mobile Specific Meta  -->
     <meta
@@ -67,6 +67,19 @@
                   /></a>
                 </div>
               </div>
+              <div class="col-md-12 hidden-xs hidden-sm">
+                <div class="main-menu">
+                  <nav class="nav-menu">
+                    <ul>
+                      <li><a href="index.html#feature">Why Pine Pay?</a></li>
+                      <li><a href="index.html#story">Our story</a></li>
+                      <li><a href="index.html#screenshot">How it works?</a></li>
+                      <li><a href="index.html#nextfeature">Next Feature</a></li>
+                      <li><a href="index.html#followus">Follow us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
               <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
                 <div class="mobile_menu"></div>
               </div>
@@ -81,6 +94,19 @@
       </div>
     </header>
     <!-- header area end -->
+    <!-- ... existing HTML ... -->
+
+    <div id="root"></div>
+    <!-- ... existing HTML ... -->
+    <!-- blog post area start -->
+    <div class="blog-post-area">
+      <div class="container">
+        <div class="section-title">
+          <h2>Merchant Fee Calculator</h2>
+        </div>
+      </div>
+    </div>
+    <!-- blog post area end -->
     <!-- footer area start -->
     <footer>
       <div class="footer-area">
@@ -125,5 +151,18 @@
     <script src="assets/js/counterup.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
   </body>
 </html>
