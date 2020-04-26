@@ -87,7 +87,15 @@
 }
 
 .bg-gray {
-  background-color: #fafafa;
+  background-color: #dcf0fa;
+}
+
+.bg-green {
+  background-color: #dcfadc;
+}
+
+.bg-orange {
+  background-color: #faf3dc;
 }
 
 *,
