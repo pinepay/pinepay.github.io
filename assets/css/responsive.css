@@ -93,8 +93,10 @@
   }
   .single-post {
     margin-bottom: 50px;
-    border-bottom: 1px solid #efebeb;
     padding-bottom: 30px;
+  }
+  .section-title h2 {
+    margin-top: 100px;
   }
 
   /*-----------------------
@@ -185,6 +187,9 @@
   .section-title p {
     font-size: 16px;
   }
+  .section-title h2 {
+    margin-top: 100px;
+  }
   .feature-area {
     padding: 80px 0px 40px;
   }
@@ -217,7 +222,6 @@
   }
   .single-post {
     margin-bottom: 50px;
-    border-bottom: 1px solid #efebeb;
     padding-bottom: 30px;
   }
   .contact_info {
@@ -299,8 +303,8 @@
     float: right;
     border: 2px solid #417505;
     background-color: #417505;
-    padding: 5px 5px;
-    margin-bottom: 10px;
+    padding: 5px 5;
+    margin-right: 15px;
   }
   .join-button-mobile {
     display: block;
@@ -372,6 +376,9 @@
   .section-title p {
     font-size: 16px;
   }
+  .section-title h2 {
+    margin-top: 100px;
+  }
   .feature-area {
     padding: 70px 0px 30px;
   }
@@ -404,7 +411,6 @@
   }
   .single-post {
     margin-bottom: 50px;
-    border-bottom: 1px solid #efebeb;
     padding-bottom: 30px;
   }
   .contact_info {
