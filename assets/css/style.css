@@ -670,7 +670,7 @@ END Service Area
   text-overflow: ellipsis;
 }
 
-list-square ol {
+.list-square ol {
   list-style-type: roman;
   padding-left: 40px;
   margin-bottom: 15px;
@@ -683,7 +683,7 @@ list-square ol {
 }
 
 .list-square li {
-  margin: 10px 0;
+  margin: 10px 20px;
   color: black;
   font-size: 16px;
   letter-spacing: 0px;
@@ -703,6 +703,12 @@ list-square ol {
   color: black;
   font-size: 16px;
   letter-spacing: 0px;
+}
+
+.list-square a {
+  font-size: 16px;
+  color: blue;
+  margin-bottom: 25px;
 }
 
 /*===========================
